@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 1</title>
+    <style>
+        body {
+            background-color: hsl(212, 45%, 89%);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            height: 100vh; 
+        }
+        img {
+            border-radius: 10px;
+            max-width: 100%;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            max-width: 350px;
+            min-width: 350px;
+            transition: 0.5s;
+            padding-top: 8%;
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            
+        }
+        div:hover {
+            box-shadow: 0 0 20px #758cb8;
+            transform: scale(1.05);
+            text-decoration: none;
+        }
+        p {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        #p1 {
+            font-size:25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        #p2 {
+            color: rgb(0, 0, 0,0.5);
+            font-size: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="image-qr-code.png" alt="qrcode">
+        <p id="p1"><b>Improve your front-end skills by building projects</b></p>
+        <p id="p2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+</body>
+</html>
